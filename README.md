@@ -2,14 +2,14 @@
 
 This is the node project to run your course labs and other code in
 
-If you are using the provided VMs, then this is aready installed.
+If you are using the provided VMs, then this is already installed.
 
 If you want to install this on your local machine, the following needs to be done.
 
 ### Installing the programs
 
 This was built and tested with the LTS version of node v20.12
-Typescript, the TS compiler and ts-node were installed globally but you can add install those locally in your project as well.
+Typescript, the TS compiler and ts-node were installed globally, but you can add install those locally in your project as well.
 
 ```console
 npm install -g typescript
@@ -26,7 +26,7 @@ git clone https://github.com/ExgnoRepos/2413-RxJS-Lab.git
 cd 2413-RxJS-Lab
 npm install
 ```
-To ensure that everything is installed correctly, run the `test.ts` file like this, whichs should produce the output 20 30 40
+To ensure that everything is installed correctly, run the `test.ts` file like this, which should produce the output 20 30 40
 
 ```console
 tsc test.ts
@@ -35,5 +35,8 @@ node test.js
 30
 40
 ```
-Finally, open the `test.html` file and press the "Go Live" label in the lower right hand corner of VSCode to ensure that you can render the page.
+Finally, open the `test.html` file and press the "Go Live" label in the lower right-hand corner of VSCode to ensure that you can render the page.
+
+Once you see the web page being displayed, shut down the live server by clicking again on the same location
+
 
