@@ -1,7 +1,4 @@
-import { merge, interval } from 'rxjs';
+import { from } from 'rxjs';
 
-const obs1$ = interval(1000); 
-const obs2$ =interval(1000); 
-
-const m$ = merge(obs1$, obs2$);
-m$.subscribe(value => console.log(value));
+const array$ = from([10, 20, 30]);
+array$.subscribe(value => console.log(value));
