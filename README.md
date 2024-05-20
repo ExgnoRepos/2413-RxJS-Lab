@@ -19,14 +19,21 @@ npm install -g ts-node
 
 ### Installing the labs
 
-Clone the repository
+Clone the repository, then locate to the repo and install the npm dependencies
 
 ```console
-
-```
-
-Then run locate to root directory for the labs and run the command below to install the dependencies
-
-```console
+git clone https://github.com/ExgnoRepos/2413-RxJS-Lab.git
+cd 2413-RxJS-Lab
 npm install
 ```
+To ensure that everything is installed correctly, run the `test.ts` file like this, whichs should produce the output 20 30 40
+
+```console
+tsc test.ts
+node test.js
+20
+30
+40
+```
+Finally, open the `test.html` file and press the "Go Live" label in the lower right hand corner of VSCode to ensure that you can render the page.
+
